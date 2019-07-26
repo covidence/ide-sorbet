@@ -4,6 +4,11 @@
   "version": "0.2.0",
   "description": "Ruby + sorbet language support for Atom-IDE.",
   "repository": "https://github.com/covidence/ide-sorbet",
+  "enhancedScopes": [
+    "source.rb",
+    "source.ruby",
+    "source.ruby.rails"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
