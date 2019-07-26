@@ -58,7 +58,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.9.9"
+    "atom-languageclient": "^0.9.9",
+    "command-exists": "^1.2.8"
   },
   "configSchema": {
     "sorbetCommand": {
@@ -75,6 +76,25 @@
       "type": "boolean",
       "default": false,
       "description": "Enable experimental LSP features"
+    },
+    "enableWatchman": {
+      "type": "string",
+      "default": "auto",
+      "description": "Enable watchman support to watch files changed outside the editor",
+      "enum": [
+        {
+          "value": "auto",
+          "description": "Enable if watchman is detected"
+        },
+        {
+          "value": "enable",
+          "description": "Enabled"
+        },
+        {
+          "value": "disable",
+          "description": "Disabled"
+        }
+      ]
     }
-  } 
+  }
 }
