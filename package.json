@@ -59,5 +59,22 @@
   },
   "dependencies": {
     "atom-languageclient": "^0.9.9"
-  }
+  },
+  "configSchema": {
+    "sorbetCommand": {
+      "type": "string",
+      "default": "bundle exec srb",
+      "description": "Command to run sorbet"
+    },
+    "verbose": {
+      "type": "boolean",
+      "default": false,
+      "description": "Enable verbose logging"
+    },
+    "experimentalFeatures": {
+      "type": "boolean",
+      "default": false,
+      "description": "Enable experimental LSP features"
+    }
+  } 
 }
