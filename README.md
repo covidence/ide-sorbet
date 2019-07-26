@@ -1,5 +1,6 @@
 # ide-sorbet package
 
-A short description of your package.
+Enables Atom IDE integration with [sorbet](https://sorbet.org/) for type
+checking in ruby files. This uses the language server provided by sorbet.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+If watchman is installed then files will be watched for changes outside the editor.
