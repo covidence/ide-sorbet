@@ -3,6 +3,7 @@
   "main": "./lib/ide-sorbet",
   "version": "0.0.0",
   "description": "Ruby + sorbet language support for Atom-IDE.",
+  "repository": "https://github.com/covidence/ide-sorbet",
   "consumedServices": {
     "linter-indie": {
       "versions": {
