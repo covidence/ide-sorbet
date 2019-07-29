@@ -1,7 +1,7 @@
 {
   "name": "ide-sorbet",
   "main": "./lib/ide-sorbet",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Ruby + sorbet language support for Atom-IDE.",
   "repository": "https://github.com/covidence/ide-sorbet",
   "enhancedScopes": [
